@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Idade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>🧮 Calculadora de Idade</h1>
+
+      <div class="input-area">
+        <label for="entrada">Data de nascimento:</label>
+        <input
+          type="date"
+          id="entrada"
+          placeholder="Digite sua data de nascimento"
+        />
+        <div class="btns">
+          <button id="btnCalcula">Calcular</button>
+          <button id="btnLimpar">Limpar</button>
+        </div>
+        <hr />
+        <div id="alerta-personalizado" class="alerta">
+          <div class="alerta-conteudo">
+            <p id="alerta-mensagem"></p>
+            <button id="alerta-botao">OK</button>
+          </div>
+        </div>
+        <div id="visualiza-dados" class="visualiza-dados"></div>
+      </div>
+    </main>
+
+    <script src="calculaIdade.js"></script>
+  </body>
+</html>

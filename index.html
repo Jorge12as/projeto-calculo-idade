@@ -13,9 +13,11 @@
       <div class="input-area">
         <label for="entrada">Data de nascimento:</label>
         <input
-          type="date"
+          type="text"
           id="entrada"
-          placeholder="Digite sua data de nascimento"
+          placeholder="Ex: 01-05-1988"
+          maxlength="10"
+          onkeypress="mascaraData( this, event )"
         />
         <div class="btns">
           <button id="btnCalcula">Calcular</button>
@@ -35,3 +37,4 @@
     <script src="calculaIdade.js"></script>
   </body>
 </html>
+

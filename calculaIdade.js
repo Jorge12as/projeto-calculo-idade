@@ -161,7 +161,20 @@ function formatarData(dataStr) {
   return `${dia}/${mes}/${ano}`;
 }
 
-function mascaraData(campo, e) {
+function mascaraData(campo) {
+  var data = campo.value.replace(/\D/g, ''); // Remove qualquer caractere não numérico
+  if (data.length > 2) {
+    data = data.substring(0, 2) + '/' + data.substring(2);
+  }
+  if (data.length > 5) {
+    data = data.substring(0, 5) + '/' + data.substring(5, 9);
+  }
+  campo.value = data;
+}
+
+
+
+/*function mascaraData(campo, e) {
   var kC = document.querySelectorAlll ? e.keyCode : e.keyCode;
   var data = campo.value;
 
@@ -171,6 +184,6 @@ function mascaraData(campo, e) {
     } else if (data.length == 5) {
       campo.value = data += "/";
     } else campo.value = data;
-  }
+  }*/
 }
 

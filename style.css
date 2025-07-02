@@ -118,7 +118,8 @@ button:hover {
     padding: 0.22rem;
   }
   .visualiza-dados {
-    text-align: left;
+    /*text-align: left;*/
+    text-align:center;
   }
   .alerta {
     width: 10%;

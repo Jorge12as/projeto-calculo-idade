@@ -176,6 +176,7 @@ hr {
   height: 1.4rem;
   margin-left: -2rem;
   margin-bottom: -2rem;
+  border-radius: 5px;
 }
 .p-rodape {
   margin-top: 0.1rem;

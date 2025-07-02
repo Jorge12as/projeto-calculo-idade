@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h3>📊 Resultado</h3>
         <p>🗓️ Você nasceu em: <strong>${formatarData(
           dataNascimento
-        )}</strong></p>
+        )}</strong>.</p>
         <p>👶 Idade: <strong>${resultado.anos}</strong> anos,
                      <strong>${resultado.meses}</strong> meses e
                      <strong>${resultado.dias}</strong> dias de vida.</p>

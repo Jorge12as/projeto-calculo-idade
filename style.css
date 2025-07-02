@@ -170,9 +170,7 @@ hr {
 
 .rodape {
   margin-top: 0.5rem;
-  position: relative;
-  background-color: #ddd6;
-  width: 400px;
+  position: relative;    
   height: 1.4rem;
   margin-left: -2rem;
   margin-bottom: -2rem;
@@ -180,9 +178,7 @@ hr {
 }
 .p-rodape {
   margin-top: 0.1rem;
-  font-size: small;
-  color: #2c3e50;
-  box-shadow: #2c3e50;
+  font-size: small;  
   padding: 0.2rem;
 }
 
